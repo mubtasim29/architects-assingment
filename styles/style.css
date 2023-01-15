@@ -1,0 +1,118 @@
+/* --------------------------
+--------------Header Styles-----------*/
+* {
+    margin: 0;
+}
+
+.header-details {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 45px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+
+.banner-details {
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.banner-info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.btn-primary{
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0;
+    padding: 20px 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+img{
+    max-width: 100%;
+}
+
+/* -----------------------------
+-------------feature section style -------- */
+
+/* section---1 style */
+
+.section-1{
+    display: flex;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 75px;
+    align-items: center;
+}
+.image-style{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+/* section---2 style  */
+
+.section-2{
+    display: flex;
+}
+
+
+
+/* section-3 styles  */
+
+.section-3 .fact-details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+/* section--4 styles  */
+
+.section-4 .sponsor{
+    text-align: center;
+}
+.sponsor-brand{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* footer style */
+footer{
+    text-align: center;
+    border: 10px solid white;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
